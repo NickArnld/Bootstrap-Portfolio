@@ -1,0 +1,114 @@
+body{
+    margin-top: 0;
+    /* background: rgb(236, 236, 236);     */
+    background-image: url("../images/small_steps.png");
+}
+.clearfix{
+    overflow: auto;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+nav.navbar{
+    background-color: rgb(72, 99, 129);    
+    padding-top: 0px; 
+    padding-bottom: 0px; 
+}
+.midNav{
+    font-family: 'Fjalla One', sans-serif;
+    width: 67%;
+    margin: auto;    
+    /* text-align: center; */
+}
+a.nav-link, a.navbar-brand{
+    color: whitesmoke; 
+}
+.navbar-nav .nav-link{    
+    padding-right: 10px;
+    padding-top: 18px;
+}
+.nav-name{
+    float: left;
+    background-color:rgba(151, 75, 75, 0.87);
+    padding-left: 15px;
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+}
+.navbar-nav{
+    flex-direction: row;
+    float: right;
+}
+div.midBox{
+    background-color: rgb(215, 217, 226);    
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+/* h1.title{
+    padding-top: 10px;
+    padding-left: 10px;
+    color:  rgba(151, 75, 75, 0.87);
+} */
+h1.title{
+    font-family: 'Oswald', sans-serif;
+    color: rgba(136, 69, 69, 0.938);
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 10px; 
+}
+#profPic{
+    float: left;
+    border-style: solid;
+    border-color: rgba(151, 75, 75, 0.87);
+    border-width: 10px; 
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+#projects{
+    padding-bottom: 30px;
+}
+.pBox{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-bottom: 10px;
+}
+a.projTitle{
+    text-decoration-line: none;    
+}
+div.pBox:hover{
+    background-color: rgba(104, 114, 172, 0.295);
+}
+h3{
+    color: rgba(136, 69, 69, 0.938);
+    font-family: 'Oswald', sans-serif;
+    margin: 5px;
+}
+form{
+    padding-left: 10px;
+}
+input{
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+input.inTitle{
+    width: 60%;
+}
+textarea{
+    height: 300px;
+    width: 60%;
+    margin-bottom: 5px;
+}
+p.about{    
+    float: inherit;
+    font-family: 'Merriweather', serif;
+    line-height: 1.5em;
+    margin-top: 20px;
+    
+}
